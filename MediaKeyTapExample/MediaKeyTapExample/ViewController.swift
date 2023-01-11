@@ -61,6 +61,12 @@ extension ViewController: MediaKeyTapDelegate {
       print("Volume down pressed")
     case .mute:
       print("Mute pressed")
+    case .keyboardBrightnessDown:
+        print("Keyboard brightness down")
+    case .keyboardBrightnessUp:
+        print("Keyboard brightness up")
+    case .keyboardBrightnessToggle:
+        print("Keyboard brightness toggle")
     }
   }
 }
