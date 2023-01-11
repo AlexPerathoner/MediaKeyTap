@@ -1,5 +1,12 @@
 # MediaKeyTap
 
+--
+
+* Adding keyboard brightness key taps
+
+--
+
+
 `MediaKeyTap` provides an API for accessing the Mac's media keys (play/pause, next and previous) in your Swift application.
 `MediaKeyTap` will only capture key events when it is the most recently activated media application, matching the behaviour of
 existing applications, such as those using `SPMediaKeyTap`.
