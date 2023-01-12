@@ -9,6 +9,11 @@
 import Cocoa
 
 public enum MediaKey {
+    case playPause
+    case previous
+    case next
+    case rewind
+    case fastForward
     case brightnessUp
     case brightnessDown
     case volumeUp
