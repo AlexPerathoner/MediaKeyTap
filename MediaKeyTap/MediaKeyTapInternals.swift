@@ -127,11 +127,8 @@ class MediaKeyTapInternals {
                     isFunctionKey: true,
                     modifiers: NSEvent(cgEvent: event)?.modifierFlags
                 )
-
-                return nil
-            } else {
-                return event
             }
+            return event
         }
 
         if let nsEvent = NSEvent(cgEvent: event) {
@@ -150,8 +147,6 @@ class MediaKeyTapInternals {
                 }
             }
             delegate?.handle(keyEvent: nsEvent.keyEvent, isFunctionKey: false, modifiers: nsEvent.modifierFlags)
-
-            return nil
         }
 
         return event

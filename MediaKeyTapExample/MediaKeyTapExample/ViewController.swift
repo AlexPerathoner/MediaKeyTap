@@ -23,6 +23,8 @@ class ViewController: NSViewController {
 
     self.mediaKeyTap = MediaKeyTap(delegate: self, on: .keyDownAndUp)
     self.mediaKeyTap?.start()
+
+    
   }
 
   func toggleLabel(_ label: NSTextField, enabled: Bool) {
